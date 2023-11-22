@@ -165,7 +165,7 @@ class PlainTextResponse(Response):
 
 
 class JSONResponse(Response):
-    media_type = "application/json"
+    media_type = "application/json; charset=utf-8"
 
     def __init__(
         self,
